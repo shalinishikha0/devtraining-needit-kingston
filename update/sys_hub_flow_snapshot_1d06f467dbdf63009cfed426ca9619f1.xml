@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"3f003938-961f-4156-aff8-528b9040fcb7.property_value","label":"1➛property_value","type":"string","base_type":"string"},{"name":"e7f0b11e-33dc-46e5-b653-2a3cd330786a.calculated_date","label":"2➛calculated_date","type":"string","base_type":"string"},{"name":"d3efccc7-62ba-4508-b25c-b941e18e651f.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"f91c1413-1bf0-44e2-8ca5-16f606dc92ea.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"f91c1413-1bf0-44e2-8ca5-16f606dc92ea.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"f91c1413-1bf0-44e2-8ca5-16f606dc92ea.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <name>Find and close long overdue needit tasks</name>
+        <parent_flow display_value="Find and close long overdue needit tasks">76e330e3dbdf63009cfed426ca961918</parent_flow>
+        <remote_trigger_id>c006f467dbdf63009cfed426ca96199c</remote_trigger_id>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-04 08:54:58</sys_created_on>
+        <sys_id>1d06f467dbdf63009cfed426ca9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find and close long overdue needit tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_1d06f467dbdf63009cfed426ca9619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-04 08:54:58</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
